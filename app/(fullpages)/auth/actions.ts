@@ -3,6 +3,6 @@
 
 import { signIn } from "@/auth";
 
-export default async function signInWithGoogle(props) {
+export default async function signInWithGoogle(props:any) {
   await signIn("google");
 }
